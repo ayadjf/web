@@ -1,0 +1,347 @@
+.create-quiz-wrapper {
+    padding: 0px;
+    width: 100%;
+    background: #ffffff00;
+    min-height: 100vh;
+  }
+  
+  
+  .quiz-container {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-container h2 {
+    margin-bottom: 25px;
+  }
+  
+  .quiz-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .top-inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .form-control label {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .question-box {
+    width: 100%; /* Slightly smaller width */
+    max-width: 700px; /* Limit the maximum width */
+    background: #fefefe;
+    padding: 12px; /* Reduced padding */
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Slightly smaller radius */
+    margin: 0 auto 16px auto; /* Adjust margin to fit better */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    position: relative;
+    left:-93px;
+  }
+  .question-header {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -75px;
+    top:100%;
+ }
+ 
+ 
+ .grade-box {
+    margin-left: 600px; /* Move the grade box a little to the left */
+    margin-top: -100px;
+    display: inline-block; /* Ensure it stays on the same line */
+    margin-top: 30px; /* Keep some space from the top */
+  }
+  .placeholder {
+    color: #000000;
+  }
+  
+  .selected {
+    color: #000;
+  }
+  
+  .grade-box label {
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: -20px;
+    margin-top: -20px;
+  }
+  
+  .grade-box input {
+    width: 60px;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  
+  .select-level {
+    font-size: 16px; /* Change this value as needed */
+    color: #333;     /* Example: dark gray text */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.question-input {
+    width: 60%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px; /* Smaller font size */
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .option-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .option-row span {
+    flex: 1;
+  }
+  
+  
+  
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .period {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+  }
+  
+  .period input {
+    padding: 8px;
+    width: 100px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-question-btn {
+    transform: translateY(-50%);
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 770px;
+    margin-top: -150px;
+  }
+  
+  .bottom-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .bottom-row label {
+    font-weight: 500;
+  }
+  
+  .bottom-row input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 120px;
+  }
+  
+    .finish-btn {
+        background-color: #f4c73d;
+        border: 2px solid #f4c73d;
+        padding: 10px 25px;
+        border-radius: 12px;
+        font-weight: lighter;
+        color: #184F78; /* Blue text */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 200px;
+        width: 120px;
+      }
+    
+      .delete-btn {
+        background-color: #ff3939;
+        border: 2px solid  #ff3939;
+        padding: 10px 25px;
+        border-radius: 12px;
+        font-weight: lighter;
+        color: #ffffff; 
+        cursor: pointer;
+        margin-left: 0px;
+        width: 120px;
+        transition: background-color 0.3s ease;
+
+      }
+  
+  
+  
+  .level-selectors {
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+  }
+  
+  
+  
+  .level-selectors select {
+    padding: 10px;               /* same as .form-control input */
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #3b3a3a;
+    width: 100%;                 /* make them take full width like inputs */
+    height: 300px;                /* approximate height of input fields */
+    box-sizing: border-box;
+    color: #000000;
+
+  }
+  .form-control select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  
+  
+  /* For multi-select inputs (Section and Group) */
+  .form-control select[multiple] {
+    height: 120px;
+    background-color: #fff;
+    font-size: 15px;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  .level-selectors select:focus {
+    outline: black;
+    border: 2px solid #000000;
+
+    border-color: #080808;
+  }
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+  }
+  .remove-question-top {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #e0e0e0;
+    color: #333;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  .quiz-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+  }
+  
+  .input-group select,
+  .input-group input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .remove-option {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-left: 8px;;
+    cursor: pointer;
+  }
+  .form-control input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: 100%;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control input[type="file"]:hover {
+    border-color: #007bff;
+  }
+  

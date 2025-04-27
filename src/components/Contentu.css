@@ -1,0 +1,86 @@
+.content{
+    width:75%;
+}
+.content--header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header--title{
+    color:#526d82;
+}
+.header--activity{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+.search-box{
+    background: #f2f2f2;
+    padding:8px 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.search-box input{
+    border:none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    outline:none;
+
+}
+.search-box .icon{
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.Card{
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    margin-top: 2rem;
+    flex:1;
+    padding: 20px;
+    background:#FEDC62;
+    
+}
+.add{
+    
+    margin-top: 3rem;
+}
+.addm{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left:220px;
+    top:80px;
+    font-size:30px;
+}
+.iconp{
+    position:relative;
+    top:20px;
+    left:80px;
+    font-size: 60px;
+    cursor: pointer;
+
+}
+.description{
+    display: flex ;
+    flex-direction: row;
+    height: 100px;
+   
+}
+.chp{
+    width:320px;
+    height: 200px;
+    position: relative;
+    bottom:80px;
+}
+.tech{
+    width:250px;
+    position: relative;
+    left:800px;
+    bottom:100px;
+}
